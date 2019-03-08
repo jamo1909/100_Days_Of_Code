@@ -36,7 +36,7 @@ public class Day6_Kattis_SimonSays {
 		String answerStr = "";
 		if(str[0].equals("Simon") && str[1].equals("says")) {
 			for(int i=2; i<str.length;i++) {
-				 answerStr = str[i]  + " ";
+				 answerStr += str[i]  + " ";
 			}	
 		}
 	
